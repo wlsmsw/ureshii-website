@@ -16,7 +16,7 @@
                             
                         
                             <p><strong>Are you ready to unleash your potential and make and impact?</strong></p>
-                            <p>Here in Tochigi-Ken Technologies Internation Inc., we empower minds to fuel innovation.</p>
+                            <p>Here in Ure-Shii Technologies, Inc., we empower minds to fuel innovation.</p>
                             <p>Let your professional career reach new heights with one of the best solution providers here in the Philippines.</p>
                             <p>Know more about the our job openings below : </p>
                             
@@ -94,7 +94,7 @@
                         <?php } ?>
                         
                         <div class="subpage-content-main">
-                            <p>Interested applicants may email their CVs to <a href="mailto:hr@tochigiken-tech.com" target="_blank">hr@tochigiken-tech.com</a> to apply.</p>
+                            <p>Interested applicants may email their CVs to <a href="mailto:sales@ureshii-tech.com" target="_blank">sales@ureshii-tech.com</a> to apply.</p>
                         </div>
                         
                         <div class="clearfix"></div>

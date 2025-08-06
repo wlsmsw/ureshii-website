@@ -15,7 +15,6 @@ class Main extends CI_Controller {
 	public function homepage(){
 
 		$data['page'] = 'Home';
-		$data['projects'] = $this->mmain->getProjects();
 		$data['products'] = $this->getProducts();
 		
 		//$this->load->view('layouts/header', $data);
@@ -26,7 +25,6 @@ class Main extends CI_Controller {
 	public function policyCookie(){
 	    
 	    $data['page'] = 'Cookie Policy';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
 
 	    $this->load->view('layouts/header',$data);
@@ -37,7 +35,6 @@ class Main extends CI_Controller {
 	public function companyOverview(){
 	    
 	    $data['page'] = 'About Us';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
 
 	    $this->load->view('layouts/header',$data);
@@ -48,7 +45,6 @@ class Main extends CI_Controller {
 	public function missionVision(){
 	    
 	    $data['page'] = 'About Us';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
 
 	    $this->load->view('layouts/header',$data);
@@ -59,7 +55,6 @@ class Main extends CI_Controller {
 	public function corporateMilestones(){
 	    
 	    $data['page'] = 'About Us';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
 
 	    $this->load->view('layouts/header',$data);
@@ -68,27 +63,11 @@ class Main extends CI_Controller {
 	}
 	
 	
-	
-	public function getProjects(){
-	    
-	    $projName = $this->uri->segment(2);
-	    $data['page'] = 'Projects';
-	    
-	    $data['title'] = strtoupper(str_replace("-"," ",$projName));
-	    $data['projects'] = $this->mmain->getProjects();
-	    $data['products'] = $this->getProducts();
-	    
-	    $data['project_details'] = $this->mmain->getProjectDetails($projName);
 
-	    $this->load->view('layouts/header',$data);
-		$this->load->view('projects');
-		$this->load->view('layouts/footer');
-	}
 	
 	public function getCareers(){
 	    
 	    $data['page'] = 'Careers';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
 	    $data['careers'] = $this->mmain->getCareers();
 
@@ -101,7 +80,6 @@ class Main extends CI_Controller {
 	    
 	    $careerID = $this->uri->segment(2);
 	    $data['page'] = 'Careers';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
 	    
 	    $careerDetails = $this->mmain->getCareerDetails($careerID);
@@ -124,7 +102,6 @@ class Main extends CI_Controller {
 	public function contactUs(){
 	    
 	    $data['page'] = 'Contact Us';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
 
 	    $this->load->view('layouts/header',$data);
@@ -138,7 +115,6 @@ class Main extends CI_Controller {
 	    $data['product_slug'] = $this->uri->segment(2);
 	    
 	    $data['page'] = 'Products';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
         
         $data['product_title'] = $this->mmain->getProductTitle($data['product_slug']);
@@ -170,9 +146,9 @@ class Main extends CI_Controller {
 	    $products = $this->mmain->getProducts();
 	    
 	    foreach($products as $p){
-	        $productArray[$p['product_slug']]['name'] = $p['product_name'];
-	        if($p['PCS_ID'] != ''){
-	            $productArray[$p['product_slug']]['sub'][$p['subproduct_slug']]['name'] = $p['subproduct_name'];
+	        $productArray[$p['pr_slug']]['name'] = $p['pr_name'];
+	        if($p['PS_ID'] != ''){
+	            $productArray[$p['pr_slug']]['sub'][$p['subproduct_slug']]['name'] = $p['subproduct_name'];
 	        }
 	    }
 	    

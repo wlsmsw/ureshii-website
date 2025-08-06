@@ -61,7 +61,7 @@
                             <nav class="navik-menu menu-caret submenu-top-border submenu-scale">
                                 <ul>
                                     <li class="">
-                                        <a class="" href="#">Home</a>
+                                        <a class="" href="<?=base_url()?>">Home</a>
                                     </li>
                                     <li class="<?=($page == 'About Us') ? 'active' : ''?>">
                                         <a class="" href="<?=base_url('company-overview')?>">About Us</a>
