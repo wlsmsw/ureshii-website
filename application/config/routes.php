@@ -59,7 +59,7 @@ $route['contact-us']                =   'main/contactUs';
 /*about us*/
 $route['company-overview']          =   'main/companyOverview';
 $route['mission-vision']            =   'main/missionVision';
-$route['quality-policy']            =   'main/qualityPolicy';
+$route['corporate-milestones']      =   'main/corporateMilestones';
 
 /*projects*/
 $route['projects/(:any)']           =   'main/getProjects';

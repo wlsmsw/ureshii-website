@@ -20,17 +20,18 @@
                             +63 (46) 404-5071<br />
 
                             <p><strong>E-mail</strong><br />
-                            Sales: <a href="mailto:sales@tochigiken-tech.com">sales@tochigiken-tech.com</a><br />
+                            Sales: <a href="mailto:sales@ureshii-tech.com">sales@ureshii-tech.com</a><br />
                         </div>
                     </div>
 
                     <div class="col-md-2">
                         <div class="footer-sitemap">
                         <h2>About Us</h2>
+
                         <ul>
                           <li><a href="<?=base_url('company-overview')?>">Company Overview</a></a></li>
                           <li><a href="<?=base_url('mission-vision')?>">Mission & Vision</a></li>
-                          <li><a href="<?=base_url('quality-policy')?>">Quality Policy & Objectives</a></a></li>
+                          <li><a href="<?=base_url('corporate-milestones')?>">Corporate Milestones</a></a></li>
                         </ul>
                         </div>
                     </div>
@@ -42,14 +43,29 @@
                             <p>Follow us on our social media accounts</p>
                             
                             <ul>
-                              <li><a href="#" target="_blank"><span class="fa-brands fa-facebook-f"></span></a></li>
-                              <li><a href="#" target="_blank"><span class="fa-brands fa-x-twitter"></span></a></li>
-                              <li><a href="#" target="_blank"><span class="fa-brands fa-instagram"></span></a></li>
-                              <li><a href="#" target="_blank"><span class="fa-brands fa-youtube"></span></a></li>
+                              <li><a href="#" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                              <li><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                              <li><a href="#" target="_blank"><span class="fa fa-instagram"></span></a></li>
+                              <li><a href="#" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+                              <li><a href="#" target="_blank"><span class="fa fa-youtube"></span></a></li>
                             </ul>
                             
                             
                        
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="footer-follow">
+                            <div class="logos">
+                                <p><img alt="" src="<?=base_url('assets/img/footer-img1.png')?>">
+                                </p>
+                                <p><img alt="" src="<?=base_url('assets/img/footer-img2.png')?>">
+                                </p>
+                                <p><img alt="" src="<?=base_url('assets/img/footer-img3.png')?>">
+                                </p>
+                            </div>
+                           
                         </div>
                     </div>
 
@@ -66,7 +82,7 @@
                         <div class="copyright-content">
                             <ul>
                               <li><a href="news.php">News</a></li>
-                              <li><a href="<?=base_url('contact-us')?>">Contact Us</a></li>
+                              <li><a href="contact-us.php">Contact Us</a></li>
                               <li><a href="<?=base_url('cookie-policy')?>">Privacy Policy</a></li>
                             </ul>
                         </div>
@@ -74,7 +90,7 @@
 
                     <div class="col-md-6">
                         <div class="copyright-content">
-                            <p>&copy; Tochigi-Ken Technologies International Inc. | 2025 All Rights Reserved</p>
+                            <p>&copy; Ure-Shii Technologies, Inc. | 2025 All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

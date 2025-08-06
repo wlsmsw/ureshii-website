@@ -16,7 +16,14 @@
                             
                             <h2>Mission</h2>
                         
-                            <p>Our mission at Tochigi - Ken Technologies International , Inc. is to enhance mobility through innovation, leadership and excellence in quality. Innovation by providing unparalleled value combined with flexibility and risk taking ability. Leadership by delivering exceptional performance in every domain and corporate responsibility. Excellence in Quality by giving our best to deliver commitments that exceeds customer’s expectation.</p>
+                            <p>To deliver on time, highest quality at a reasonable price by demonstrating the highest values of business practices and relations with customers, suppliers and employees.</p>
+
+                            <p>
+                                <ul>
+                                    <li>Committing to satisfy customer requirements, exceed expectations with continuous growth in current operations and new business opportunities.</li>
+                                    <li>By providing reliable technical solutions and best quality products, equipment’s and services in the semiconductor and electronics industry.</li>
+                                </ul>
+                            </p>
   
                         </div>
                         
@@ -24,7 +31,7 @@
                             
                             <h2>Vision</h2>
                         
-                            <p>To establish stronghold name in construction industry as one of leading company specialized in controlled environment design and build capability with an aim to achieve excellence in all businesses that Tochigi-Ken Technologies International , Inc. ventures into, with the objective of becoming an organization that all its employees and associates are proud of. With cultivated safety guidance and hazard free workplace area and assurance to perform duties safely.</p>
+                            <p>To establish <strong>URE-SHII</strong> as a world-class company and one of the top solutions provider in consumables, materials, equipment’s, and fabrication for semi-conductor and electronics industries in the Philippines as well as in the nearby countries in the South-East Asia.</p>
   
                         </div>
                         

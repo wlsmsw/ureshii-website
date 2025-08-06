@@ -56,14 +56,14 @@ class Main extends CI_Controller {
 		$this->load->view('layouts/footer');
 	}
 	
-	public function qualityPolicy(){
+	public function corporateMilestones(){
 	    
 	    $data['page'] = 'About Us';
 	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
 
 	    $this->load->view('layouts/header',$data);
-		$this->load->view('quality-policy');
+		$this->load->view('corporate-milestones');
 		$this->load->view('layouts/footer');
 	}
 	

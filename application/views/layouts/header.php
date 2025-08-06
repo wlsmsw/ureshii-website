@@ -68,7 +68,7 @@
                                         <ul>
                                             <li><a class="" href="<?=base_url('company-overview')?>">Company Overview</a></li>
                                             <li><a class="" href="<?=base_url('mission-vision')?>">Mission & Vision</a></li>
-                                            <li><a class="" href="<?=base_url('quality-policy')?>">Quality Policy & Objectives</a></li>
+                                            <li><a class="" href="<?=base_url('corporate-milestones')?>">Corporate Milestones</a></li>
                                         </ul>
                                     </li>
                                     <li class="<?=($page == 'Products') ? 'active' : ''?>">
