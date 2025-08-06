@@ -21,7 +21,7 @@
                                 <hr/>
                             </div>
                             <p><strong>Our Office</strong><br>
-                                5th St., Blk 5 Lot 6, Golden Mile Business Park, Brgy. Maduya, Carmona, Cavite
+                                5th St., Blk 7 Lot 6, Golden Mile Business Park, Brgy. Maduya, Carmona, Cavite
                             </p>
                         
                             <p><strong>Telephone</strong><br>
@@ -32,7 +32,7 @@
                             </p>
                         
                             <p><strong>E-mail</strong><br>
-                           Sales: <a href="mailto:sales@tochigiken-tech.com">sales@tochigiken-tech.com</a></p>
+                           Sales: <a href="mailto:sales@ureshii-tech.com">sales@ureshii-tech.com</a></p>
                         </div>
                     </div>
                     
@@ -43,7 +43,7 @@
                             <hr/>
                         </div> 
                         
-                        <p><iframe frameborder="0" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.7508890002905!2d121.06737277491852!3d14.325897486128557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d724928ead27%3A0x3923a318e55e3310!2sTochi-Ken%20Technologies%20International%2C%20Inc.!5e0!3m2!1sen!2sph!4v1750622345603!5m2!1sen!2sph" style="border:0" width="100%"></iframe>
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.750039581767!2d121.0688692746252!3d14.325946783742937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d766fcc7dfdb%3A0x4cbbdd1ba3effe6d!2sUreshii%20Technologies%20Inc!5e0!3m2!1sen!2sph!4v1754442981581!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </p>
                     
                     </div>

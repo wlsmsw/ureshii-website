@@ -82,7 +82,7 @@
                         <div class="copyright-content">
                             <ul>
                               <li><a href="news.php">News</a></li>
-                              <li><a href="contact-us.php">Contact Us</a></li>
+                              <li><a href="<?=base_url('contact-us')?>">Contact Us</a></li>
                               <li><a href="<?=base_url('cookie-policy')?>">Privacy Policy</a></li>
                             </ul>
                         </div>
