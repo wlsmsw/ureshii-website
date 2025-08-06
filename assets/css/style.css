@@ -166,6 +166,7 @@ box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.05);}
 #wf-footer {padding:30px 0 30px 0;background-color:#f1f2f0;}
 #wf-footer h2 {font:700 18px 'Work Sans';color:#d60f07;margin:30px 0 5px 0;padding:0;text-transform:uppercase;}
 #wf-footer p {font:400 14px 'Work Sans';color:#665a6d;text-decoration:none;padding:0;margin:8px 0 15px 0;line-height:1.5;}
+#wf-footer p img { width: 60%; height: 60%; text-align:center; }
 
 .contact-box {border:solid 1px #eee;padding:0 30px 30px 30px;text-align:center;top:0;position:relative;}
 .contact-box img {margin-top:-50px;width:100px;}
@@ -191,6 +192,7 @@ box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.05);}
 .footer-follow ul li {list-style:none;display:inline-block;margin-right:10px;}
 .footer-follow ul li a {text-decoration:none;color:#665a6d;font-size:20px;}
 .footer-follow ul li a:hover {color:#665a6d;font-weight:bold;}
+.footer-follow .logos {text-align: center;}
 
 .subpage-content {padding:24px 0 75px 0;}
 .subpage-content h2 {font:700 30px 'Work Sans';color:#d60f07; padding:0;line-height:1.25;}

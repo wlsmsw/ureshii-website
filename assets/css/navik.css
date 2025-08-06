@@ -1751,7 +1751,7 @@ Media queries for responsive design
 	}
 	.header-transparent-on .navik-menu > ul > li.dropdown_menu > a > span:before,
 	.header-opacity-on .navik-menu > ul > li.dropdown_menu > a > span:before {
-		border-color: #000;
+		border-color: #fff;
 	}
 	.header-transparent-on.center-menu-2 .navik-menu {
 		border-color: rgba(255,255,255,0.25);

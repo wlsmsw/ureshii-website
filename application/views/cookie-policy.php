@@ -13,7 +13,7 @@
                         
                         <div class="subpage-content-main">
                         
-                        <p>Your privacy is important to us. It is Tochigi-ken Technologies International Inc.&#39;s policy to respect your privacy regarding any information we may collect from you across our website, and other sites we own and operate.</p>
+                        <p>Your privacy is important to us. It is Ure-Shii Technologies, Inc.&#39;s policy to respect your privacy regarding any information we may collect from you across our website, and other sites we own and operate.</p>
                         
                         <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we&rsquo;re collecting it and how it will be used.</p>
                         

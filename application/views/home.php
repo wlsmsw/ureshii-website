@@ -223,7 +223,7 @@
                             +63 (46) 404-5071<br />
 
                             <p><strong>E-mail</strong><br />
-                            Sales: <a href="mailto:sales@tochigiken-tech.com">sales@tochigiken-tech.com</a><br />
+                            Sales: <a href="mailto:sales@ureshii-tech.com">sales@ureshii-tech.com</a><br />
                         </div>
                     </div>
 
@@ -258,6 +258,20 @@
                         </div>
                     </div>
 
+                    <div class="col-md-4">
+                        <div class="footer-follow">
+                            <div class="logos">
+                                <p><img alt="" src="<?=base_url('assets/img/footer-img1.png')?>">
+                                </p>
+                                <p><img alt="" src="<?=base_url('assets/img/footer-img2.png')?>">
+                                </p>
+                                <p><img alt="" src="<?=base_url('assets/img/footer-img3.png')?>">
+                                </p>
+                            </div>
+                           
+                        </div>
+                    </div>
+
                     <div class="clearfix">&nbsp;</div>
                 </div>
             </div>
@@ -279,7 +293,7 @@
 
                     <div class="col-md-6">
                         <div class="copyright-content">
-                            <p>&copy; Tochigi-Ken Technologies International Inc. | 2025 All Rights Reserved</p>
+                            <p>&copy; Ure-Shii Technologies, Inc. | 2025 All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
