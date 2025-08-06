@@ -61,8 +61,6 @@ $route['company-overview']          =   'main/companyOverview';
 $route['mission-vision']            =   'main/missionVision';
 $route['corporate-milestones']      =   'main/corporateMilestones';
 
-/*projects*/
-$route['projects/(:any)']           =   'main/getProjects';
 
 /*careers*/
 $route['careers']                   =   'main/getCareers';

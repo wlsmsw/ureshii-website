@@ -117,8 +117,10 @@ class Main extends CI_Controller {
 	    $data['page'] = 'Products';
 	    $data['products'] = $this->getProducts();
         
-        $data['product_title'] = $this->mmain->getProductTitle($data['product_slug']);
-        
+        $data['title'] = strtoupper(str_replace("-"," ",$data['product_slug']));
+
+        $data['product_details'] = $this->mmain->getProductDetails($data['product_slug']);
+
 	    $this->load->view('layouts/header',$data);
 		$this->load->view('products');
 		$this->load->view('layouts/footer');
@@ -129,7 +131,6 @@ class Main extends CI_Controller {
 	    $data['subproduct_slug'] = $this->uri->segment(3);
 	    
 	    $data['page'] = 'Products';
-	    $data['projects'] = $this->mmain->getProjects();
 	    $data['products'] = $this->getProducts();
         
         $data['subproduct_title'] = $this->mmain->getSubProductTitle($data['subproduct_slug']);

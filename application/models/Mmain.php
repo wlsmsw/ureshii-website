@@ -30,15 +30,16 @@ class Mmain extends CI_Model {
 	    
 	}
 	
-	public function getProductTitle($productSlug){
+	public function getProductDetails($projName){
 	    
-	    $query = "SELECT pr_name FROM u_productcategory WHERE pr_slug = :product_slug";
+	    $query = "SELECT * FROM u_product A INNER JOIN u_productcategory B ON A.PCat_ID = B.PR_ID WHERE A.project_status = :status AND B.pr_slug = :catslug";
+	    
+	    $param[':status'] = 1;
+	    $param[':catslug'] = $projName;
+	    
+	    $result = $this->conn->query($query, $param);
 
-		$param[':product_slug'] = $productSlug;
-
-		$result = $this->conn->query($query, $param);
-
-		return ($result) ? $result[0]['pr_name'] : array();
+		return ($result) ? $result : array();
 	    
 	}
 	
