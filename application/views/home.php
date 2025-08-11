@@ -37,6 +37,8 @@
         <link rel="stylesheet" href="<?=base_url('assets/css/style.css')?>">
         <link rel="stylesheet" href="<?=base_url('assets/css/stylesheet.css')?>">
 
+        <link rel="stylesheet" href="<?=base_url('assets/css/homeslider-custom.css')?>">
+
     </head>
     <body>
         <div class="trigger"><a href="#menu-desk"><span></span></a></div>
@@ -60,11 +62,8 @@
 
                             <nav class="navik-menu menu-caret submenu-top-border submenu-scale">
                                 <ul>
-                                    <li class="">
-                                        <a class="" href="#">Home</a>
-                                    </li>
                                     <li class="<?=($page == 'About Us') ? 'active' : ''?>">
-                                        <a class="" href="<?=base_url('company-overview')?>">About Us</a>
+                                        <a class="" href="<?=base_url('company-overview')?>">About</a>
                                         <ul>
                                             <li><a class="" href="<?=base_url('company-overview')?>">Company Overview</a></li>
                                             <li><a class="" href="<?=base_url('mission-vision')?>">Mission & Vision</a></li>
@@ -72,7 +71,7 @@
                                         </ul>
                                     </li>
                                     <li class="<?=($page == 'Products') ? 'active' : ''?>">
-                                        <a class="" href="#">Products And Services</a>
+                                        <a class="" href="#">Products</a>
                                         <ul>
                                                      
                                             <?php
@@ -91,6 +90,9 @@
                                             ?>
                                             
                                         </ul>
+                                    </li>
+                                    <li class="<?=($page == 'Solutions') ? 'active' : ''?>">
+                                        <a class="" href="<?=base_url('careers')?>">Solutions</a>
                                     </li>
                                     <li class="<?=($page == 'Careers') ? 'active' : ''?>">
                                         <a class="" href="<?=base_url('careers')?>">Careers</a>
@@ -111,24 +113,90 @@
         </div>
 
         <div id="wf-banner">
-            <div class="banner-content" backg>
-                               
-                <video autoplay="" muted="" loop="" id="myVideo">
-                    <source src="<?=base_url('assets/video/ureshii-highlight.mp4')?>" type="video/mp4">
-                </video>
-
-                <div class="color-overlay"></div>
-
-                <div class="dots-overlay"></div>
-
-                   <div class="banner-caption">
-                        <div class="content-wrapper">
-
-                            <h1 data-aos="fade-up" data-aos-delay="200"><strong>BEST QUALITY.<strong></h1>
-                            <h1 data-aos="fade-up" data-aos-delay="400"><strong>LEAD TIME. LOW COST.<strong></h1>
-                            <a href="<?=base_url('company-overview')?>" class="hvr-shadow-radial link-out" data-aos="fade-up" data-aos-delay="600">Learn more</a> <!--add about us link-->
+            <div class="banner-content" >
+                   <div class="carousel">
+                        <div class="list">
+                            <div class="item">
+                                <img src="<?=base_url('assets/img/homepage/product1.jpg')?>">
+                                <div class="content">
+                                    <div class="topic">CHEMICALS</div>
+                                    <div class="des">Acids, Plating, Solvent</div>
+                                    <div class="buttons">
+                                        <a href="<?=base_url('products/chemicals')?>">VIEW MORE</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="item">
+                                <img src="<?=base_url('assets/img/homepage/product2.jpg')?>">
+                                <div class="content">
+                                    <div class="topic">CLEANROOM CONSUMABLES</div>
+                                    <div class="des">Gloves, Shoes, Tapes</div>
+                                    <div class="buttons">
+                                        <a href="<?=base_url('products/cleanroom-consumables')?>">VIEW MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="<?=base_url('assets/img/homepage/product3.jpg')?>">
+                                <div class="content">
+                                    <div class="topic">FACEMASKS</div>
+                                    <div class="des">4-ply Carbon Facemask</div>
+                                    <div class="buttons">
+                                        <a href="<?=base_url('products/facemasks')?>">VIEW MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="<?=base_url('assets/img/homepage/product4.jpg')?>">
+                                <div class="content">
+                                    <div class="topic">SEMICONDUCTOR PRODUCTS / SERVICES </div>
+                                    <div class="des">Inspection and Measuring Instruments</div>
+                                    <div class="des">Machine Shop and Standard Equipment</div>
+                                    <div class="buttons">
+                                        <a href="<?=base_url('products/facemasks')?>">VIEW MORE</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+
+                        <div class="thumbnail">
+                            
+                            
+                            <div class="item">
+                                <img src="<?=base_url('assets/img/homepage/product1.jpg')?>">
+                            </div>
+                            <div class="item">
+                                <img src="<?=base_url('assets/img/homepage/product2.jpg')?>">
+                                <div class="content">
+                                    <div class="title"></div>
+                                    <div class="des"></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="<?=base_url('assets/img/homepage/product3.jpg')?>">
+                                <div class="content">
+                                    <div class="title"></div>
+                                    <div class="des"></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="<?=base_url('assets/img/homepage/product4.jpg')?>">
+                                <div class="content">
+                                    <div class="title"></div>
+                                    <div class="des"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="arrows">
+                            <button id="prev"><</button>
+                            <button id="next">></button>
+                        </div>
+
+                        <div class="time"></div>
+                   </div>  
             </div>
         </div>
         
@@ -313,6 +381,8 @@
         <script type="text/javascript" src="<?=base_url('assets/js/owl.carousel.js')?>"></script>
 
         <script type="text/javascript" src="<?=base_url('assets/js/aos.js')?>"></script>
+
+        <script type="text/javascript" src="<?=base_url('assets/js/homeslider-custom.js')?>"></script>
 
         <script> AOS.init(); </script>
 
