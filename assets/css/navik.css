@@ -95,7 +95,7 @@ Default settings
 }
 
 .navik-header .logo img {
-	max-width: 100%;
+	max-width: 90%;
 	height: auto;
 }
 
@@ -223,7 +223,7 @@ Default settings
 	position: absolute;
 	content: '';
 	top: 24px;
-	right: 18px;
+	right: -5px;
 	width: 13px;
 	height: 1px;
 	background-color: #111111;
@@ -1430,7 +1430,7 @@ Media queries for responsive design
 	.navik-menu ul li.dropdown_menu > a > span:before {
 		border-style: solid;
 		border-width: 2px 2px 0 0;
-		border-color: #c1c1c1;
+		border-color: #0c0d5d ;
 		position: relative;
 		content: '';
 		display: inline-block;
@@ -1504,7 +1504,7 @@ Media queries for responsive design
 	}
 	.navik-menu ul ul li > a,
 	.navik-menu ul ul li:hover > a {
-		color: #fff;
+		color: #fff !important;
 		background-color: transparent;
 	}
 	.header-dark .navik-menu ul ul li > a {
@@ -1528,7 +1528,7 @@ Media queries for responsive design
 		left: 35px;
 		width: 0;
 		height: 1px;
-		background: #a1a1a1;
+		background: #019bd9 ;
 
 		-webkit-transition: all 0.2s ease-in-out;
 		-moz-transition: all 0.2s ease-in-out;
@@ -1746,7 +1746,7 @@ Media queries for responsive design
 	.header-transparent-on .navik-menu > ul > li.current-menu > a,
 	.header-opacity-on .navik-menu > ul > li:hover > a,
 	.header-opacity-on .navik-menu > ul > li.current-menu > a {
-		color: #d60f07 !important;
+		color: #0c0d5d !important;
 
 	}
 	.header-transparent-on .navik-menu > ul > li.dropdown_menu > a > span:before,
@@ -1920,7 +1920,7 @@ Media queries for responsive design
 	Submenu
 	================================================ */
 	.navik-menu.submenu-top-border li > ul {
-		border-top: 5px solid #fff;
+		border-top: 5px solid #019bd9;
 	}
 	.navik-menu.submenu-top-border li > ul ul {
 		top: -30px;

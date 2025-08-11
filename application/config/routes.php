@@ -69,3 +69,6 @@ $route['careers/(:any)']            =   'main/getCareerDetails';
 /*products*/
 $route['products/(:any)']           =   'main/getProductDetails';
 $route['products/(:any)/(:any)']    =   'main/getSubProductDetails';
+
+/*news*/
+$route['news']						=	'main/getNews';

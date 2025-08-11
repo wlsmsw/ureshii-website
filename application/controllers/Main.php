@@ -62,7 +62,15 @@ class Main extends CI_Controller {
 		$this->load->view('layouts/footer');
 	}
 	
-	
+	public function getNews(){
+	    
+	    $data['page'] = 'News';
+	    $data['products'] = $this->getProducts();
+
+	    $this->load->view('layouts/header',$data);
+		$this->load->view('news');
+		$this->load->view('layouts/footer');
+	}
 
 	
 	public function getCareers(){

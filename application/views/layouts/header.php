@@ -41,6 +41,8 @@
         <link rel="stylesheet" href="<?=base_url('assets/css/stylesheet.css')?>">
         <link rel="stylesheet" href="<?=base_url('assets/css/lightslider.custom.css')?>">
 
+        <link rel="stylesheet" href="<?=base_url('assets/css/timeline-custom.css')?>">
+
     </head>
     <body>
         <div class="trigger"><a href="#menu-desk"><span></span></a></div>
@@ -96,13 +98,13 @@
                                             
                                         </ul>
                                     </li>
-                                    <li class="">
+                                    <li class="<?=($page == 'Careers') ? 'active' : ''?>">
                                         <a class="" href="<?=base_url('careers')?>">Careers</a>
                                     </li>
-                                    <li class="">
-                                        <a class="" href="news.php">News</a>
+                                    <li class="<?=($page == 'News') ? 'active' : ''?>">
+                                        <a class="" href="<?=base_url('news')?>">News</a>
                                     </li>
-                                    <li class="">
+                                    <li class="<?=($page == 'Contact Us') ? 'active' : ''?>">
                                         <a class="" href="<?=base_url('contact-us')?>">Contact Us</a>
                                     </li>
                                 </ul>
