@@ -200,13 +200,98 @@
             </div>
         </div>
         
+        
+
+        <section id="wf-features">
+            <div class="container">
+                <div class="justify-content-md-center row">
+                    <div class="col-md-9">
+                        <div class="features-content">
+                            <h2 data-aos="fade-up" class="aos-init aos-animate">Who we are?</h2>
+
+                            <p data-aos="fade-up" class="aos-init aos-animate"><strong>Ure-shii Technologies Incorporated</strong> was established by March 26, 2008 as Cleanroom /ESD Consumables, Tooling and Fabrication Supplier for Semiconductors, Electronics, medical devices, food processing and pharmaceutical companies.<br/></br/>
+
+                            As a result of the diversification during the period, we are presently dealing in other Electronics / Semiconductor–products such as cutting tools, Test Sockets, System Spare Parts and other products that are indispensable in an information-dependent society.<br/></br/>
+
+                            Our Policy, moreover, is to create a Global perspective as a solution provider responding to the needs of our customer with<br/>
+                            <strong>BEST QUALITY, LEAD TIME AND LOW COST</strong></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="wf-services">
+            <div class="container">
+                <div class="justify-content-md-center row">
+                    <div class="col-md-9">
+                        <div class="service-content">
+                            <h2 data-aos="fade-up" class="aos-init aos-animate">Products</h2>
+                        </div>
+                    </div>
+
+                <div class="clearfix">&nbsp;</div>
+
+                <div class="row"> 
+                    
+                    <div class="col-md-6">
+                        <a href="<?=base_url('products/chemicals')?>" title="Chemicals" />
+                            <div class="service-item aos-init aos-animate" data-aos="fade-down">
+                                <img src="<?=base_url('assets/img/homepage/prodcard1.jpg')?>">
+                                <div class="prodcard"><h3>CHEMICALS</h3></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <a href="<?=base_url('products/cleanroom-consumables')?>" title="Cleanroom Consumables" />
+                            <div class="service-item aos-init aos-animate" data-aos="fade-down">
+                                <img src="<?=base_url('assets/img/homepage/prodcard2.jpg')?>">
+                                <div class="prodcard"><h3>CLEANROOM CONSUMABLES</h3></div>
+                            </div>
+                        </a>
+                    </div>
+
+                
+                </div>
+
+                 <div class="row"> 
+                    
+                    <div class="col-md-6">
+                        <a href="<?=base_url('products/facemasks')?>" title="Facemasks" />
+                            <div class="service-item aos-init aos-animate" data-aos="fade-down">
+                                <img src="<?=base_url('assets/img/homepage/prodcard3.jpg')?>">
+                                <div class="prodcard"><h3>FACEMASKS</h3></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <a href="<?=base_url('products/semiconductor-products-and-services')?>" title="Semiconductor Products and Services" />
+                            <div class="service-item aos-init aos-animate" data-aos="fade-down">
+                                <img src="<?=base_url('assets/img/homepage/prodcard4.jpg')?>">
+                                <div class="prodcard"><h3>SEMICONDUCTOR PRODUCTS</h3></div>
+                            </div>
+                        </a>
+                    </div>
+
+                
+                </div>
+
+                <div class="clearfix">&nbsp;</div>
+                </div>
+            </div>
+        </section>
+
 
         <section id="wf-clients">
             <div class="container">
                 <div class="row"> 
                     <div class="col-md-12">
                         <div class="clients-title">
-                            <h2>Companies we&#39;ve worked with</h2>
+                            <h2 data-aos="fade-up" class="aos-init aos-animate">Companies we&#39;ve worked with</h2>
 
                             <div class="clients-slider" data-aos="fade-down">
                                 <div class="citem">
@@ -231,47 +316,6 @@
             </div>
         </section>
 
-        <!--stories-->
-        <section id="wf-stories">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="clients-title">
-                            <h2>Latest Stories</h2>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="story-box hvr-shrink">
-                            <img src="<?=base_url('assets/img/const-story1.jpg')?>">
-                            <a href="#">New Project Released</a>
-                            <p>2025-05-05</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="story-box hvr-shrink">
-                            <img src="<?=base_url('assets/img/const-story1.jpg')?>">
-                            <a href="#">New Project Released</a>
-                            <p>2025-05-05</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="story-box hvr-shrink">
-                            <img src="<?=base_url('assets/img/const-story1.jpg')?>">
-                            <a href="#">New Project Released</a>
-                            <p>2025-05-05</p>
-                        </div>
-                    </div>
-
-                    
-                </div>
-
-            </div>
-            </div>
-        </section>
 
         <div id="wf-footer">
             <div class="container">
