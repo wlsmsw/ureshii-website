@@ -32,6 +32,17 @@ class Main extends CI_Controller {
 		$this->load->view('layouts/footer');
 	}
 	
+
+	public function About(){
+	    
+	    $data['page'] = 'About Us';
+	    $data['products'] = $this->getProducts();
+
+	    $this->load->view('layouts/header',$data);
+		$this->load->view('about');
+		$this->load->view('layouts/footer');
+	}
+
 	public function companyOverview(){
 	    
 	    $data['page'] = 'About Us';

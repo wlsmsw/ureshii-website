@@ -62,14 +62,10 @@
 
                             <nav class="navik-menu menu-caret submenu-top-border submenu-scale">
                                 <ul>
-                                    <li class="<?=($page == 'About Us') ? 'active' : ''?>">
-                                        <a class="" href="<?=base_url('company-overview')?>">About</a>
-                                        <ul>
-                                            <li><a class="" href="<?=base_url('company-overview')?>">Company Overview</a></li>
-                                            <li><a class="" href="<?=base_url('mission-vision')?>">Mission & Vision</a></li>
-                                            <li><a class="" href="<?=base_url('corporate-milestones')?>">Corporate Milestones</a></li>
-                                        </ul>
+                                    <li class="<?=($page == 'About') ? 'active' : ''?>">
+                                        <a class="" href="<?=base_url('about')?>">About</a>
                                     </li>
+                               
                                     <li class="<?=($page == 'Products') ? 'active' : ''?>">
                                         <a class="" href="#">Products</a>
                                         <ul>

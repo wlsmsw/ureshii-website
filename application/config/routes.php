@@ -57,6 +57,7 @@ $route['cookie-policy']             =   'main/policyCookie';
 $route['contact-us']                =   'main/contactUs';
 
 /*about us*/
+$route['about']						=	'main/About';
 $route['company-overview']          =   'main/companyOverview';
 $route['mission-vision']            =   'main/missionVision';
 $route['corporate-milestones']      =   'main/corporateMilestones';

@@ -90,19 +90,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2870e', end
 .service-content h2 {font:700 40px 'Work Sans';color:#0c0d5d;margin:0 0 15px 0;line-height:1.2;text-transform:capitalize;}
 .service-content p {font:400 15px 'Work Sans';color:#000;line-height:1.5;margin-bottom:30px;}
 .service-item {text-align:center;margin:15px 0; position:relative;}
-.service-item img {width:40vw;height:30vh;transition:all 0.5s ease-in-out;
-  top: 8px;
-  left: 16px;
-object-fit: cover}
-.service-item h3 {margin:30px 0 15px 0;padding:0;line-height:1.25;position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-color:#fff;font-weight: bolder;background-color: transparent;width:100%}
+.service-item img {width:40vw;height:30vh;transition:all 0.5s ease-in-out;top: 8px;left: 16px;object-fit: cover}
+.service-item h3 {padding-right:10px !important; margin:30px 0 15px 0;padding:0;line-height:1.25;position: absolute;bottom: -15px;color:#0c0d5d; -webkit-text-stroke: 2px fff; font-weight: bolder; text-align:right; background-color: transparent;width:100%}
 .service-item p {font:400 14px 'Work Sans';color:#200241;line-height:1.45;margin:0;padding:0;}
-.service-item h3:hover {color:#fff;background-color: #0c0d5d}
-.service-item:hover img {webkit-filter: blur(2px); /* Chrome, Safari, Opera */
-    filter: blur(2px);}
+
+.service-item:hover img {webkit-filter: blur(2px); filter: blur(2px);}
+.service-item:hover h3   {color:#fff;background:linear-gradient(145deg,rgba(1, 155, 217, 1) 20%, rgba(12, 13, 93, 1) 60%);}
 
 #wf-testi {padding:5rem 1rem;background:url(../../images/misc/testi.jpg);background-size:cover;background-attachment:fixed;}
 .testi-title {text-align:center;}
@@ -366,7 +359,6 @@ border-top: 1px solid #ccc;
     .banner-caption h2 {font-size:50px;}
     .banner-caption p {font-size:20px;}
 
-    .service-item h3 {color:#fff;background-color: #0c0d5d; margin:15px 0 15px 0;padding:0;line-height:1.25;position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%); font-size: 18px;}
 }
 
 @media only screen and (max-width:1366px) {
@@ -379,7 +371,6 @@ border-top: 1px solid #ccc;
     .banner-caption h2 {font-size:40px;}
     .banner-caption p {font-size:20px;}
 
-    .service-item h3 {color:#fff;background-color: #0c0d5d; margin:15px 0 15px 0;padding:0;line-height:1.25;position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%); font-size: 18px;}
 }
 
 @media only screen and (max-width:1024px) {

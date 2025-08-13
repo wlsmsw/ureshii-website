@@ -11,6 +11,18 @@
                             <h2>ABOUT US</h2>
                         </div>
                         
+
+                        <div class="subpage-content-main">
+
+                            <h2>Company Overview</h2>
+                
+                            <p><strong>Ure-shii Technologies Incorporated</strong> was established by March 26, 2008 as Cleanroom /ESD Consumables, Tooling and Fabrication Supplier for Semiconductors, Electronics, medical devices, food processing and pharmaceutical companies.</p>
+                            
+                            <p>As a result of the diversification during the period, we are presently dealing in other Electronics / Semiconductor–products such as cutting tools, Test Sockets, System Spare Parts and other products that are indispensable in an information-dependent society.</p>
+                            
+                            <p>Our Policy, moreover, is to create a Global perspective as a solution provider responding to the needs of our customer with:<br/><strong>Best Quality, Lead Time and Low Cost</strong></p>
+
+                        </div>
                         
                         <div class="subpage-content-main">
                             
