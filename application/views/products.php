@@ -12,21 +12,32 @@
                         <div class="subpage-title">
                             <h2><?=$title;?></h2>
                         </div>
-                        
-                        <div class="demo">
-                            <ul id="lightSlider">
-                        
-                                <?php 
-                                    foreach($product_details as $pdetails){
-                                        echo '<li data-thumb="'.base_url('assets/img/products/'.$pdetails['pr_slug'].'/'.$pdetails['project_image']).'">
-                                            <img src="'.base_url('assets/img/products/'.$pdetails['pr_slug'].'/'.$pdetails['project_image']).'" style="width: 100% !important" />
-                                            <div class="centered"><p>'.$pdetails['project_name'].'</p></div>
-                                        </li>';
+
+                        <?php 
+                            $cnt = 1;
+
+                            foreach($product_details as $k => $v){
+
+                                    if($cnt % 2 != 0){
+                                        echo '<div class="row">';
                                     }
-                                ?>
-                                
-                            </ul>
-                        </div>
+
+                                    echo '<div class="col-md-6"><div class="service-item display aos-init aos-animate" data-aos="fade-down">
+                                                <img src="'.base_url('assets/img/products/'.$v['pr_slug'].'/'.$v['project_image']).'">
+                                                <div class="prodcard"><h3>'.$v['project_name'].'</h3></div>
+                                            </div></div>';
+
+                                    if($cnt % 2 == 0){
+                                        echo '</div>';
+                                    }
+
+                                    $cnt++;
+
+                            }
+
+
+                        ?>
+
 
                         <div class="clearfix"></div>
     
