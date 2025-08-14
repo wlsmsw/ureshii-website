@@ -234,7 +234,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <a href="<?=base_url('products/semiconductor-products-and-services')?>" title="Semiconductor Products and Services" />
+                        <a href="<?=base_url('products/sub/semiconductor-products-and-services')?>" title="Semiconductor Products and Services" />
                             <div class="service-item aos-init aos-animate" data-aos="fade-down">
                                 <img src="<?=base_url('assets/img/homepage/prodcard4.jpg')?>">
                                 <div class="prodcard"><h3>SEMICONDUCTOR PRODUCTS</h3></div>
