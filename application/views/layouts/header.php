@@ -55,7 +55,7 @@
                         <div class="navik-header-container">
                           
                             <div class="logo" data-mobile-logo="<?=base_url('assets/img/ureshii-logo.png')?>" data-sticky-logo="<?=base_url('assets/img/ureshii-logo.png')?>">
-                                <img src="<?=base_url('assets/img/ureshii-logo.png')?>" alt="logo"/>
+                                <a href="<?=base_url()?>"><img src="<?=base_url('assets/img/ureshii-logo.png')?>" alt="logo"/></a>
                             </div>
 
                             <div class="burger-menu">
@@ -65,38 +65,15 @@
                             </div>
 
                             <nav class="navik-menu menu-caret submenu-top-border submenu-scale">
-                                <ul>
-                                    <li class="">
-                                        <a class="" href="<?=base_url()?>">Home</a>
-                                    </li>
-                                    <li class="<?=($page == 'About Us') ? 'active' : ''?>">
-                                        <a class="" href="<?=base_url('company-overview')?>">About Us</a>
-                                        <ul>
-                                            <li><a class="" href="<?=base_url('company-overview')?>">Company Overview</a></li>
-                                            <li><a class="" href="<?=base_url('mission-vision')?>">Mission & Vision</a></li>
-                                            <li><a class="" href="<?=base_url('corporate-milestones')?>">Corporate Milestones</a></li>
-                                        </ul>
+                                 <ul>
+                                    <li class="<?=($page == 'About') ? 'active' : ''?>">
+                                        <a class="" href="<?=base_url('about')?>">About</a>
                                     </li>
                                     <li class="<?=($page == 'Products') ? 'active' : ''?>">
-                                        <a class="" href="#">Products And Services</a>
-                                        <ul>
-                                                     
-                                            <?php
-                                                foreach($products as $k=>$v){
-                                                    if(isset($v['sub'])){
-                                                        echo '<li><a class="" href="#">'.$v['name'].'</a><ul>';
-                                                        foreach($v['sub'] as $k1 => $v1){
-                                                            echo '<li><a class="" href="'.base_url('products/'.$k.'/'.$k1).'">'.$v1['name'].'</a></li>';
-                                                        }
-                                                        echo '</ul>';
-                                                    }else{
-                                                        echo '<li><a class="" href="'.base_url('products/'.$k).'">'.$v['name'].'</a>';
-                                                    }
-                                                    echo '</li>';
-                                                }
-                                            ?>
-                                            
-                                        </ul>
+                                        <a class="" href="<?=base_url('products')?>">Products</a>
+                                    </li>
+                                    <li class="<?=($page == 'Solutions') ? 'active' : ''?>">
+                                        <a class="" href="#">Solutions</a>
                                     </li>
                                     <li class="<?=($page == 'Careers') ? 'active' : ''?>">
                                         <a class="" href="<?=base_url('careers')?>">Careers</a>

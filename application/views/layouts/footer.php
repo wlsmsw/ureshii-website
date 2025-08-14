@@ -26,13 +26,20 @@
 
                     <div class="col-md-2">
                         <div class="footer-sitemap">
-                        <h2>About Us</h2>
+                            <h2>About Us</h2>
 
-                        <ul>
-                          <li><a href="<?=base_url('company-overview')?>">Company Overview</a></a></li>
-                          <li><a href="<?=base_url('mission-vision')?>">Mission & Vision</a></li>
-                          <li><a href="<?=base_url('corporate-milestones')?>">Corporate Milestones</a></a></li>
-                        </ul>
+                            <ul>
+                              <li><a href="<?=base_url('about')?>">Corporate Milestones</a></li>
+                            </ul>
+
+                            <h2>Products</h2>
+
+                            <ul>
+                              <li><a href="<?=base_url('products/chemicals')?>"/>Chemicals</a></li>
+                              <li><a href="<?=base_url('products/cleanroom-consumables')?>"/>Cleanroom Consumables</a></li>
+                              <li><a href="<?=base_url('products/facemasks')?>"/>Facemasks</a></li>
+                              <li><a href="<?=base_url('products/sub/semiconductor-products-and-services')?>"/>Semiconductor Products and Services</a></li>
+                            </ul>
                         </div>
                     </div>
 

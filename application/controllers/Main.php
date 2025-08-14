@@ -83,6 +83,32 @@ class Main extends CI_Controller {
 		$this->load->view('layouts/footer');
 	}
 
+	public function getProductsMain(){
+	    
+	    $data['page'] = 'Products';
+	    $data['products'] = $this->getProducts();
+
+	    $this->load->view('layouts/header',$data);
+		$this->load->view('products-main');
+		$this->load->view('layouts/footer');
+	}
+
+	public function getSubProductsMain(){
+	    
+		
+
+	    $data['page'] = 'Products';
+	    $products = $this->getProducts();
+
+	    $data['productslug'] = $this->uri->segment(3);
+	    $data['products'] = $products[$data['productslug']];
+	    $data['title']	= strtoupper(str_replace("-"," ",$data['productslug']));
+
+
+	    $this->load->view('layouts/header',$data);
+		$this->load->view('sub-products-main');
+		$this->load->view('layouts/footer');
+	}
 	
 	public function getCareers(){
 	    

@@ -51,7 +51,7 @@
                         <div class="navik-header-container">
                           
                             <div class="logo" data-mobile-logo="<?=base_url('assets/img/ureshii-logo.png')?>" data-sticky-logo="<?=base_url('assets/img/ureshii-logo.png')?>">
-                                <img src="<?=base_url('assets/img/ureshii-logo.png')?>" alt="logo"/>
+                                <a href="<?=base_url()?>"><img src="<?=base_url('assets/img/ureshii-logo.png')?>" alt="logo"/></a>
                             </div>
 
                             <div class="burger-menu">
@@ -65,30 +65,11 @@
                                     <li class="<?=($page == 'About') ? 'active' : ''?>">
                                         <a class="" href="<?=base_url('about')?>">About</a>
                                     </li>
-                               
                                     <li class="<?=($page == 'Products') ? 'active' : ''?>">
-                                        <a class="" href="#">Products</a>
-                                        <ul>
-                                                     
-                                            <?php
-                                                foreach($products as $k=>$v){
-                                                    if(isset($v['sub'])){
-                                                        echo '<li><a class="" href="#">'.$v['name'].'</a><ul>';
-                                                        foreach($v['sub'] as $k1 => $v1){
-                                                            echo '<li><a class="" href="'.base_url('products/'.$k.'/'.$k1).'">'.$v1['name'].'</a></li>';
-                                                        }
-                                                        echo '</ul>';
-                                                    }else{
-                                                        echo '<li><a class="" href="'.base_url('products/'.$k).'">'.$v['name'].'</a>';
-                                                    }
-                                                    echo '</li>';
-                                                }
-                                            ?>
-                                            
-                                        </ul>
+                                        <a class="" href="<?=base_url('products')?>">Products</a>
                                     </li>
                                     <li class="<?=($page == 'Solutions') ? 'active' : ''?>">
-                                        <a class="" href="<?=base_url('careers')?>">Solutions</a>
+                                        <a class="" href="#">Solutions</a>
                                     </li>
                                     <li class="<?=($page == 'Careers') ? 'active' : ''?>">
                                         <a class="" href="<?=base_url('careers')?>">Careers</a>
@@ -150,7 +131,7 @@
                                     <div class="des">Inspection and Measuring Instruments</div>
                                     <div class="des">Machine Shop and Standard Equipment</div>
                                     <div class="buttons">
-                                        <a href="<?=base_url('products/facemasks')?>">VIEW MORE</a>
+                                        <a href="<?=base_url('products/sub/semiconductor-products-and-services')?>">VIEW MORE</a>
                                     </div>
                                 </div>
                             </div>
@@ -164,24 +145,12 @@
                             </div>
                             <div class="item">
                                 <img src="<?=base_url('assets/img/homepage/product2.jpg')?>">
-                                <div class="content">
-                                    <div class="title"></div>
-                                    <div class="des"></div>
-                                </div>
                             </div>
                             <div class="item">
                                 <img src="<?=base_url('assets/img/homepage/product3.jpg')?>">
-                                <div class="content">
-                                    <div class="title"></div>
-                                    <div class="des"></div>
-                                </div>
                             </div>
                             <div class="item">
                                 <img src="<?=base_url('assets/img/homepage/product4.jpg')?>">
-                                <div class="content">
-                                    <div class="title"></div>
-                                    <div class="des"></div>
-                                </div>
                             </div>
                             
                         </div>
@@ -337,13 +306,20 @@
 
                     <div class="col-md-2">
                         <div class="footer-sitemap">
-                        <h2>About Us</h2>
+                            <h2>About Us</h2>
 
-                        <ul>
-                          <li><a href="<?=base_url('company-overview')?>">Company Overview</a></a></li>
-                          <li><a href="<?=base_url('mission-vision')?>">Mission & Vision</a></li>
-                          <li><a href="<?=base_url('corporate-milestones')?>">Corporate Milestones</a></a></li>
-                        </ul>
+                            <ul>
+                              <li><a href="<?=base_url('about')?>">Corporate Milestones</a></li>
+                            </ul>
+
+                            <h2>Products</h2>
+
+                            <ul>
+                              <li><a href="<?=base_url('products/chemicals')?>"/>Chemicals</a></li>
+                              <li><a href="<?=base_url('products/cleanroom-consumables')?>"/>Cleanroom Consumables</a></li>
+                              <li><a href="<?=base_url('products/facemasks')?>"/>Facemasks</a></li>
+                              <li><a href="<?=base_url('products/sub/semiconductor-products-and-services')?>"/>Semiconductor Products and Services</a></li>
+                            </ul>
                         </div>
                     </div>
 

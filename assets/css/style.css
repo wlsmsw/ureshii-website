@@ -412,7 +412,9 @@ border-top: 1px solid #ccc;
         padding: 14px 15px 14px 30px;
     }
 
-    .service-item h3 {color:#fff;background-color: #0c0d5d; margin:15px 0 15px 0;padding:0;line-height:1.25;position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%); font-size: 18px;}
+    .service-item img {width:90vw;height:20vh;transition:all 0.5s ease-in-out;top: 8px;left: 16px;object-fit: cover; webkit-filter: blur(2px); filter: blur(2px);}
+    .service-item h3 {font-size: 16px; color:#fff;background:linear-gradient(145deg,rgba(1, 155, 217, 1) 20%, rgba(12, 13, 93, 1) 60%); padding-right:10px !important; margin:30px 0 15px 0;padding:0;line-height:1.25;position: absolute;bottom: 0px; text-align:right; width:100%}
+
 }
 
 @media only screen and (max-width:767px) {
@@ -456,8 +458,7 @@ border-top: 1px solid #ccc;
     -o-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);width: 100%;text-align:
     left;text-transform:capitalize;text-decoration:none;font:700 35px 'Work Sans';color:#0c0d5d;}
 
-    .service-item img {width:90vw;height:20vh;transition:all 0.5s ease-in-out;top: 8px;left: 16px;object-fit: cover; webkit-filter: blur(2px); filter: blur(2px);}
-    .service-item h3 {color:#fff;background-color: #0c0d5d; margin:15px 0 15px 0;padding:0;line-height:1.25;position: absolute;top: 40%;left: 50%;transform: translate(-50%, -50%); font-size: 18px;}
+  
 
 }
 
@@ -499,6 +500,9 @@ border-top: 1px solid #ccc;
         background-color: transparent;
         padding: 14px 15px 14px 30px;
     }
+
+    .service-item img {width:90vw;height:20vh;transition:all 0.5s ease-in-out;top: 8px;left: 16px;object-fit: cover; webkit-filter: blur(2px); filter: blur(2px);}
+    .service-item h3 {font-size: 16px; color:#fff;background:linear-gradient(145deg,rgba(1, 155, 217, 1) 20%, rgba(12, 13, 93, 1) 60%); padding-right:10px !important; margin:30px 0 15px 0;padding:0;line-height:1.25;position: absolute;bottom: 0px; text-align:right; width:100%}
 }
 
 @media only screen and (max-width:400px) {
@@ -522,6 +526,9 @@ border-top: 1px solid #ccc;
         background-color: transparent;
         padding: 14px 15px 14px 30px;
     }
+
+    .service-item img {width:90vw;height:20vh;transition:all 0.5s ease-in-out;top: 8px;left: 16px;object-fit: cover; webkit-filter: blur(2px); filter: blur(2px);}
+    .service-item h3 {font-size: 16px; color:#fff;background:linear-gradient(145deg,rgba(1, 155, 217, 1) 20%, rgba(12, 13, 93, 1) 60%); padding-right:10px !important; margin:30px 0 15px 0;padding:0;line-height:1.25;position: absolute;bottom: 0px; text-align:right; width:100%}
 }
 
 @media only screen and (max-width:380px) {
@@ -549,4 +556,5 @@ border-top: 1px solid #ccc;
 
 @media only screen and (max-width:375px) {
     .subpage-title {height:20vh;position:relative;margin-top:20vh;}
+
 }
