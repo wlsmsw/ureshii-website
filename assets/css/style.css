@@ -309,6 +309,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8a47', end
 
 #wf-subpage iframe,.subpage-content iframe {padding: 20px;}
 #wf-subpage .g-recaptcha iframe {padding: 0 !important;}
+#wf-subpage .service-item { width: auto; height:auto; }
+#wf-subpage img {width: 100%; object-fit: cover;}
 
 
 
